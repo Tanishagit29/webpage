@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    font-family: Arial;
+    border:border-box;
+
+}
+.navbar{
+    height:100px ;
+    background-color: pink;
+    color:black;
+    display:flex;
+    
+
+}
+.nav-logo{
+    height:37.7px;
+    width:130px;
+    padding-left:5%;
+    padding-top:2% ;
+    padding-bottom: 2%;
+}
+.logo{
+    background-image:url("Ajio-Logo.svg");
+    background-size:cover;
+    height:37.7px;
+    width:130px;
+
+}
+.nav-items {
+    display:flex;
+    justify-content: space-between;
+    padding-bottom:1%;
+    align-items:flex-end;
+    text-transform:uppercase;
+    padding-left: 15%;
+}
+.nav-items p{
+    display:inline;
+    margin-left:20px;
+    
+}
+.Search-bar{
+    display:flex;
+    
+    border:1px solid black;
+    justify-content:flex-end;
+    margin-top:50px;
+    
+}
+.search-input{
+    background-color:#FFFDED;
+    border-radius:100px;
+    width:300px;
+    height:34px;
+
+    margin-left:50px;
+    
+}
+
+
+
+
+.nav-item2{
+    display:flex;
+}
+.nav-item2 p{
+display:inline;
+}
+.icon1{
+    display:flex;
+    height:34px;
+    width:34px;
+}
+
+.image-section{
+    background-image: url("new.webp");
+    background-size: contain;
+    height :120px;
+
+}
+.image-section2{
+    background-image: url("hero-image2.avif");
+    background-size:cover;
+    height:530px;
+    width:100%;
+}
+.image-section3{
+    background-image: url("hero-image3.webp");
+    background-size: cover;
+    height:500px;
+}
+.image-section4{
+    background-image:url("image1.avif") ;
+    background-size:contain;
+    height:100px;
+}
+.Shop-section{
+    display:flex;
+    justify-content: space-evenly;
+}
+   
+.box{
+    height:400px;
+    width:100%;
+    background-color: white;
+    
+    
+}
+.box-img{
+    height:450px;
+    width:1000%;
+    
+}
+.image-section5{
+    background-image: url("image6.webp");
+    background-size: cover;
+    height:550px;
+    width:1600px;
+    margin-top:15px;
+    margin-bottom:50px;
+}
+.image-section6{
+    background-image:url("image7.webp") ;
+    background-size: cover;
+    height:130px;
+}
